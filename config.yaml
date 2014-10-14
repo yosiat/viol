@@ -1,0 +1,13 @@
+# Configuration of the viol webserver
+
+pcap:
+  # device to listen the packets on
+  device: en1
+  # bpf filter - the filter for sniffer
+  bpf_filter: tcp and port 80
+  # the maximum size to read for each packet
+  snaplen: 65536
+  # whether to use promiscuous mode or node
+  promisc: true
+  # Enable radio monitoring mode - like promiscuous  mode
+  rfmon: false

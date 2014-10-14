@@ -1,0 +1,15 @@
+{
+	"ImportPath": "github.com/yosiat/viol",
+	"GoVersion": "go1.3.3",
+	"Deps": [
+		{
+			"ImportPath": "code.google.com/p/gopacket",
+			"Comment": "v1.1.8-23-ga6efa31",
+			"Rev": "a6efa31399883e135f11670c6dbf5ab34dac2fb3"
+		},
+		{
+			"ImportPath": "gopkg.in/yaml.v2",
+			"Rev": "eca94c41d994ae2215d455ce578ae6e2dc6ee516"
+		}
+	]
+}
